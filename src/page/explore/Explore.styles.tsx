@@ -9,7 +9,7 @@ export const Container = styled(Box)`
 export const LeftSide = styled(Box)`
   min-width: 400px;
 
-  @media screen and (max-width: 840px) {
+  @media screen and (max-width: 400px) {
     min-width: 100%;
     margin-top: 10px;
   }
@@ -17,4 +17,8 @@ export const LeftSide = styled(Box)`
 
 export const RightSide = styled(Box)`
   width: 100%;
+
+  @media screen and (max-width: 400px) {
+    display: none;
+  }
 `;

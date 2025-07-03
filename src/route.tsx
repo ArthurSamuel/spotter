@@ -12,6 +12,10 @@ const route = createBrowserRouter([
     children: [
       {
         index: true,
+        path: "/",
+        element: <TravelPage />,
+      },
+      {
         path: "/travel",
         element: <TravelPage />,
       },
