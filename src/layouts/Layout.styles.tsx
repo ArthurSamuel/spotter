@@ -11,7 +11,6 @@ export const WrapperLayout = styled.div`
   width: 100%;
 
   @media (max-width: 1023px) {
-    /* background-color: blue; */
     padding-left: 13px;
     padding-right: 13px;
   }

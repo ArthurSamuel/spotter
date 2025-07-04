@@ -9,7 +9,7 @@ interface IRequest {
 }
 
 export const apiInstance = axios.create({
-  timeout: 3000,
+  timeout: 6000,
 });
 
 apiInstance.interceptors.request.use(async (config) => {
